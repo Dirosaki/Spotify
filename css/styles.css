@@ -8,8 +8,8 @@
 
 nav{
     height: 70px;
-    background-color: black;
-    position: ; /* Arrumar depois */
+    background-color:rgba(0,0,0,.5);
+    /* position: ; Arrumar depois */
     z-index:-1;
     width: 100%;
     
@@ -38,17 +38,22 @@ nav ul li{
 }
 
 .logo{
-    width: 60px;
+    height: 40px;;
     z-index: 1;
-    margin-top:5px;
+    margin-top:15px;
     margin-bottom: 5px;
-    margin-left: 10px;
+    margin-left: 100px;
+
 }
 
 nav ul li a{
     text-decoration: none;
     color: white;
-    font-size: 18pt;
+    font-size: 16px;
+    font-weight: 700;
+    display: flex;
+    position: relative;
+    top: 15px;
     
 }
 
@@ -57,26 +62,32 @@ h2{
     font-size: 50px;
     font-weight: bold;
     padding-top: 220px;
+    color: white;
 }
 
+button{
+    display: inline-flex;
+}
 
 .button1{
-    background-color: greenyellow;
+    background-color: #1db954;
     border: none;
     text-align: center;
     font-size: 20pt;
-    margin-left: 400px;
+    margin-left: 25%;
     padding: 10px;
     padding-left: 30px;
     padding-right: 30px;
     margin-right: 40px;
     border-radius: 500px;
+    color: white;
+    display: inline-flex;
     
 }
 
 .button2{
     background-color: transparent;
-    border: white 2px;
+    border: solid white 2px;
     text-align: center;
     font-size: 20pt;
     padding: 10px;
@@ -84,15 +95,15 @@ h2{
     padding-right: 30px;
     margin-right: 40px;
     border-radius: 500px;
+    color: white;
+    margin-right: 25%;
+    display: inline-flex;
     
 }
 
 body{
-    background-color: blue;
+    background-image: url("../img/fundo.png");
+    background-repeat: no-repeat;
+    
+
 }
-
-
-
-
-
-
