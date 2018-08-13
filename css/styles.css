@@ -123,7 +123,7 @@ h4{
 }
 
 .button2{
-    background-color: transparent;
+    background-color: transparent; /* Deixa fundo transparente*/
     border: solid white 1px;
     width: 320px;
     text-align: center;    
